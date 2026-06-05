@@ -1,0 +1,18 @@
+{
+  "stores": [
+    {
+      "shop_name": "shop_a",
+      "enabled": true,
+      "api_token_env": "WB_SHOP_A_TOKEN"
+    },
+    {
+      "shop_name": "shop_b",
+      "enabled": true,
+      "api_token_env": "WB_SHOP_B_TOKEN"
+    }
+  ],
+  "content_api_base_url": "https://content-api.wildberries.ru",
+  "request_timeout_seconds": 30,
+  "cards_page_limit": 100,
+  "mark_missing_cards_as_delisted": false
+}
